@@ -1,6 +1,7 @@
 #!/usr/bin/python3
-def last_2_digits(num):
-    a_string = str(a)
-    a_length = len(a_string)
-    c = a_string[a_length - 2: a_length]
-    print("{}".format(a), last_2_digits(a))
+def print_last_digit(num):
+    if num < 0:
+        num = -num
+    lst = num % 10
+    print(last, end='')
+    return last
