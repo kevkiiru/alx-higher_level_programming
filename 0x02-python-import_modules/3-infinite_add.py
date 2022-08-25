@@ -4,3 +4,5 @@ if __name__ == "__main__":
     num = len(sys.argv)
     if num >= 1:
         print("arguments: ".format(num))
+    for a in range(1, num):
+        print("{}: {}".format(a, sys.argv[a]))
