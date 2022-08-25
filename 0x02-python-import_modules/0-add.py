@@ -4,4 +4,4 @@ def add(a, b):
     b = 2
     print("(a {} + b {} = add{:a}, {:b} {}.format(a, b, a + b)")
     
-add
+add()
