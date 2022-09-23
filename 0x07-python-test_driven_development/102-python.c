@@ -4,6 +4,13 @@
 #include <object.h>
 #include <unicodeobject.h>
 
+void print_python_string(PyObject *p);
+
+/**
+ * print_python_string - prints Python strings
+ * @p: pointer to the function
+ * Return: printed strings
+ */
 
 void print_python_string(PyObject *p)
 {
