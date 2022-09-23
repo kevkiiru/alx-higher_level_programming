@@ -17,11 +17,12 @@ void print_python_string(PyObject *p)
 	const char *type = NULL;
 	Py_ssize_t len = 0;
 	wchar_t *str = NULL;
-
+	
 	printf("[.] string object info\n");
+
 	if (!PyUnicode_Check(p))
 	{
-		printf(" [Error] Invalid String Object\n");
+		printf("  [ERROR] Invalid String Object\n");
 		return;
 	}
 
@@ -32,7 +33,7 @@ void print_python_string(PyObject *p)
 
 	str = PyUnicode_AsWideCharString(p, &len);
 
-	printf(" type: %s\n", type);
-	printf(" length: %ld\n", len);
-	printf(" value: %ls\n", str);
+	printf("  type: %s\n", type);
+	printf("  length: %ld\n", len);
+	printf("  value: %ls\n", str);
 }
