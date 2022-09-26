@@ -6,6 +6,7 @@ Creates a Square class.
 
 BaseGeometry = __import__('7-base_geometry').BaseGeometry
 Rectangle = __import__('9-rectangle').Rectangle
+Square = __import__('10-square').Square
 
 
 class Square(Rectangle):
