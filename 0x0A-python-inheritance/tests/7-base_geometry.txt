@@ -10,7 +10,6 @@ Import the class:
     >>> BaseGeometry = __import__('7-base_geometry').BaseGeometry
 
 Now test it:
-
     >>> bg = BaseGeometry()
     
     >>> bg.integer_validator("my_int", 12)
