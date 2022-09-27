@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+"""Module write_file. Contains the function write_file
+"""
 
 
 def write_file(filename="", text=""):
