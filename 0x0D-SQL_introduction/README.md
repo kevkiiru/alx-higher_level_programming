@@ -1,1 +1,1 @@
-This is the readme file for the sql project!!
+This is the readme file for the sql intorduction project!!
