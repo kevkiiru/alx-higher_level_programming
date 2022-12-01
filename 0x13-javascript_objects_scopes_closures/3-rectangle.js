@@ -11,12 +11,12 @@ class Rectangle {
   }
 
   print () {
-  for (let a = 1; a <= this.height; a++) {
-    let row = '';
-    for (let b = 1; b <= this.width; b++) row += 'X';
-    console.log(row);
+    for (let a = 1; a <= this.height; a++) {
+      let row = '';
+      for (let b = 1; b <= this.width; b++) row += 'X';
+      console.log(row);
+    }
   }
- }
 }
 
 module.exports = Rectangle;
