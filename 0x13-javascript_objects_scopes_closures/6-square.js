@@ -10,7 +10,7 @@ class Square extends Square5 {
     } else {
       const printer = c.repeat(this.width);
       for (let a = 0; a < this.height; a++) {
-	console.log(printer);
+        console.log(printer);
       }
     }
   }
